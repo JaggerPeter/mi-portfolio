@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctame - Mi Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html" class="active">Contáctame</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contact-section">
+            <h2>Contáctame</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><strong>Email:</strong> peter.agudelo760@gmail.com </p>
+                    <p><strong>LinkedIn:</strong> /in/tu-perfil</p>
+                    <p><strong>GitHub:</strong> /tu-usuario</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Peter Agudelo - Todos los derechos reservados</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
